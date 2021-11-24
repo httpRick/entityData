@@ -1,0 +1,28 @@
+<meta>
+ 	<info author="Rick" type="script" version="1.5.9" />
+	<min_mta_version server="1.5.5-9.13846" client="1.5.6-9.16361"/>
+	<script src="FEntityData.lua" type="shared"/>
+	<script src="SEntityData.lua" type="server"/>
+	<script src="CEntityData.lua" type="client"/>
+	<script src="import.lua" type="shared"/>
+
+	<export function="importFunctions" type="shared" />
+	<export function="setKeyFlag" type="shared" />
+	<export function="hasEntityData" type="shared" />
+	<export function="getEntityData" type="shared" />
+	<export function="getAllEnintyData" type="shared" />
+	<export function="setEntityData" type="shared" />
+	<export function="createTransaction" type="shared" />
+	<export function="cancelTransaction" type="shared" />
+	<export function="triggerTransaction" type="shared" />
+	<export function="getElementsByEntityDataKey" type="shared" />
+
+<!-- 	
+	<script src="test/STest.lua" type="server"/>
+	<script src="test/CTest.lua" type="client"/>
+ -->
+
+	<settings>
+		<setting name="*entityDataSync" value="[false,true]" friendlyname="entityDataSync" group="Main" accept="true,false" desc="This option synchronizes the client with the server when enabled, we do not recommend enabling it, you do it at your own risk as people using lua executor can easily change server side data with this option."/>
+	</settings>
+</meta>
