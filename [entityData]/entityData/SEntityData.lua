@@ -162,7 +162,7 @@ function getElementsByEntityDataKey(sKey, sType)
 	return false
 end
 
-function getAllEnintyData(sEntity, sType)
+function getAllEntityData(sEntity, sType)
 	local scope = { elements = {}, values = {}, result = {}}
 	scope.validEntity = isEntityData(sEntity)
 	scope.validType = type(entityData.type[sType]) == "table" and sType or "public"
