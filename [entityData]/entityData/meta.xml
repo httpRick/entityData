@@ -10,7 +10,7 @@
 	<export function="setKeyFlag" type="shared" />
 	<export function="hasEntityData" type="shared" />
 	<export function="getEntityData" type="shared" />
-	<export function="getAllEnintyData" type="shared" />
+	<export function="getAllEntityData" type="shared" />
 	<export function="setEntityData" type="shared" />
 	<export function="createTransaction" type="shared" />
 	<export function="cancelTransaction" type="shared" />
