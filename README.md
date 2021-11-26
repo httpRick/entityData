@@ -4,7 +4,7 @@ The system of non-standard data operation for Elements on the MTA SA platform re
 This is a resource for [Multi Theft Auto: San Andreas](https://mtasa.com/)
 
 **entityData Wikipedia**
-* **English:** 
+* **English:** https://wiki.multitheftauto.com/wiki/Resource:EntityData
 * **Polish (Polski):** 
 
 # License
