@@ -1,5 +1,5 @@
 local sx, sy = guiGetScreenSize(  )
-local scaleValue = screenY / 1080
+local scaleValue = sy / 1080
 
 addEventHandler( "onClientRender", root, function()
 	dxDrawText("EntityData:\n"..tostring(inspect(entityData.type)), scaleValue*50, scaleValue*150, sx, sy)
