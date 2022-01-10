@@ -364,7 +364,7 @@ end
 addEventHandler("onPlayerResourceStart", root, onPlayerResourceStart)
 
 function onServerSyncEntityData(sEntity, sKey, sValue, sType)
-	if stringToBoolean(get("entityDataSync")) == true then
+	if type(get("entityDataSync")) == "boolean" and get("entityDataSync") == true then
 		  setEntityData(sEntity, sKey, sValue, sType, nil, false)
 	end
 end
